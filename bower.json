@@ -20,5 +20,5 @@
     "purescript-psci-support": "^4.0.0"
   },
   "license": "MIT",
-  "version": "v0.1.2"
+  "version": "v0.1.3"
 }
