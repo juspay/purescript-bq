@@ -19,6 +19,9 @@
   "devDependencies": {
     "purescript-psci-support": "^4.0.0"
   },
+  "homepage": "https://github.com/juspay/purescript-bq",
+  "description": "Purescript bindings for nodejs-bigquery library",
+  "authors": ["Juspay Technologies"],
   "repository": {
     "type": "git",
     "url": "https://github.com/juspay/purescript-bq.git"                  
