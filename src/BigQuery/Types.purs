@@ -1,6 +1,4 @@
-module Types(QueryOpts) where
-
-import Prelude
+module BigQuery.Types(QueryOpts) where
 
 type QueryOpts = 
   { query :: String

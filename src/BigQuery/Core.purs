@@ -1,4 +1,4 @@
-module BigQuery
+module BigQuery.Core
   ( Client
   , _createClient
   , query
@@ -13,7 +13,7 @@ import Effect (Effect)
 import Effect.Aff (Aff, Canceler, makeAff)
 import Effect.Exception (Error)
 import Foreign (Foreign)
-import Types (QueryOpts)
+import BigQuery.Types (QueryOpts)
 
 foreign import data Client :: Type
 
