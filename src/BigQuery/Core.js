@@ -1,8 +1,8 @@
-const BQ = require("@google-cloud/bigquery");
+const bq = require("@google-cloud/bigquery");
 
 exports._createClient = function(projId, keyFileName) {
   return function() {
-	  try { return new BQ({ projectId : projId, keyFilename : keyFileName }); }
+	  try { return new bq.BigQuery({ projectId : projId, keyFilename : keyFileName }); }
     catch(e) {console.log('Error While creating client', e)};
   };
 };
